@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+    margin-left: 5rem;
+}
+
+.content h1 {
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    margin: 0;
+}
+
+.expl {
+    color: white;
+    margin: 0;
+}
+
+.content p{
+    color: gray;
+    font-weight: 400;
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.img {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    scale: 400%;
+}
