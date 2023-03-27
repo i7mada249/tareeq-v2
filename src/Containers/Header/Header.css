@@ -1,6 +1,7 @@
 .header {
     display: flex;
     flex-direction: row;
+    padding-top: 4rem;
 }
 
 .content {
@@ -26,7 +27,7 @@
     margin: 0;
 }
 
-.content p{
+.content p {
     color: gray;
     font-weight: 400;
     margin-top: 1rem;
@@ -34,13 +35,49 @@
 }
 
 .img {
-    flex: 1;
+    flex: 1.1;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .img img {
-    scale: 400%;
+    width: 100%;
+    height: auto;
 }
+
+.btns {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.btns .main-btn {
+    color: #242424;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(214deg, rgba(255, 255, 255, 1) 0%, rgba(37, 119, 215, 1) 100%);
+}
+
+.btns button {
+    font-family: 'Tajawal', sans-serif;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: gray;
+    border: solid 1px gray;
+    border-radius: 20px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btns button:hover{
+    color: white;
+    border: solid 1px rgba(255, 255, 255, .1);
+    background: rgba(255, 255, 255, .1);
+}
+

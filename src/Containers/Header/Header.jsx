@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import img from '../../assets/react.svg'
+import img from '../../assets/coding2.png'
 
 const Header = () => {
   return (
@@ -9,6 +9,11 @@ const Header = () => {
             <h1 className="tareeq grd-txt">طريق</h1>
             <h1 className='expl'>رحلتك تبدأ من هنا</h1>
             <p className="tagline">يساعدك الموقع على معرفة خارطة طريق مجالك التقني ومهارتك التي تريد تعلمها بصورة سهلة ومبسطة بالإضافة الى تزويدك بأفضل محتوى تعليمي من الإنترنت حتى تكون رحلتك أسهل</p>
+            <div className='btns'>
+              <button>شارك معرفتك</button>
+              <button>لماذا طريق؟</button>
+              <button className='main-btn'>إدعم طريق</button>
+            </div>
         </div>
 
         <div className="img">
