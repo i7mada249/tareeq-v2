@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
 }
 
@@ -11,3 +11,13 @@
   -webkit-text-fill-color: transparent;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
