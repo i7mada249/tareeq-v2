@@ -3,7 +3,10 @@ import './Abtns.css'
 
 const Abtns = () => {
   return (
-    <div>Abtns</div>
+    <div className='container'>
+        <button className='top-btn'>تحميل</button>
+        <button className='top-btn'>مشاركة</button>
+    </div>
   )
 }
 
