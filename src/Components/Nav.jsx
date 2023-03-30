@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Nav.css'
 
 const Nav = () => {
@@ -6,8 +7,11 @@ const Nav = () => {
         <div>
             <div className='fixed-navbar'>
                 <header>
+
                     <a href="" className='logo'>
-                        <h3 className='grd-txt'>Tareeq</h3>
+                        <Link to="/">
+                            <h3 className='grd-txt'>Tareeq</h3>
+                        </Link>
                     </a>
 
                     <nav>

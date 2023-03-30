@@ -24,11 +24,12 @@
     
     width: 100%;
     height: auto;
+    padding-top: 1rem;
 }
 
 .container {
     display: grid;
     grid-template-areas: "button1 button2 button3"
                          "button4 button5 button5";
-    grid-gap: 1rem;
+    grid-gap: 0.5rem;
 }

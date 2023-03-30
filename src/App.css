@@ -14,6 +14,8 @@
 .content {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
@@ -21,3 +23,10 @@
   justify-content: center;
   align-items: center;
 }
+
+.sprt {
+  border: solid 2px #4d4d4d;
+  width: 50%;
+  margin: 6rem auto;
+}
+

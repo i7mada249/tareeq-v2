@@ -1,0 +1,35 @@
+
+.main-cont {
+    display: block;
+    width: 100%;
+}
+
+.txt-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0;
+    line-height: 1px;
+}
+
+.txt-cont h1{
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.layout{
+    display: block;
+    
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "button1 button2 button3"
+                         "button4 button5 button5";
+    grid-gap: 0.5rem;
+}

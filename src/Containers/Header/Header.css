@@ -1,7 +1,11 @@
 .header {
     display: flex;
     flex-direction: row;
-    padding-top: 4rem;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 4rem;
 }
 
 .content {
@@ -10,8 +14,6 @@
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
-
-    margin-left: 5rem;
 }
 
 .content h1 {
@@ -40,8 +42,6 @@
     align-items: flex-start;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .img img {
@@ -81,3 +81,30 @@
     background: rgba(255, 255, 255, .1);
 }
 
+/*
+.start-cont {
+    display: block;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 1rem;
+}
+*/
+
+.start-cont {
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fa-solid {
+    font-size: 36px;
+    color: #4d80e4;
+}

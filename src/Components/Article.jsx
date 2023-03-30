@@ -4,7 +4,7 @@ import './article.css'
 const article = ({text}) => {
   return (
     <div>
-        <button className='art-btn'>{text}</button>
+        <button className='art-btn' >{text}</button>
     </div>
   )
 }
