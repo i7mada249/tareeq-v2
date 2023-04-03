@@ -17,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/main' exact Component={Landingpage}/>
         <Route path='/main/frontend' Component={Frontend}/>
+        <Route path='/tareeq-v2' exact component={Landingpage}/>
       </Routes>
 
     </div>
