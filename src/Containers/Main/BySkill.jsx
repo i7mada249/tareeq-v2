@@ -1,5 +1,5 @@
 import React from 'react'
-import './BySkill.css'
+import './ByRole.css'
 import Article from '../../Components/Article'
 
 const BySkill = () => {

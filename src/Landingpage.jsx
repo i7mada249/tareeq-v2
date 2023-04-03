@@ -11,9 +11,11 @@ function Landingpage() {
 
             <div className='content'>
                 <Header />
+                <div className='sprt'></div>
                 <ByRole />
                 <div className='sprt'></div>
                 <BySkill />
+                <div className='sprt'></div>
             </div>
 
         </div>

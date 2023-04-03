@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
     right: 0;
-    margin: 2rem 6rem;
+
 }
 
 header {
@@ -27,7 +27,6 @@ header {
     padding: 0.7rem 6rem;
     background: rgba(255, 255, 255, .1);
     backdrop-filter: blur(20px);
-    border-radius: 16px;
     margin: 0;
 }
 
@@ -59,4 +58,20 @@ nav a:hover {
     background: #242424;
     border-radius: 10px;
     padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 860px) {
+    .fixed-navbar{
+        display: block;
+        width: 100%;
+    }
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    nav {
+        display: none;
+    }
 }

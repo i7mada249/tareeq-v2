@@ -19,9 +19,6 @@ const Main = () => {
       <div className='layout'>
 
         <div className='container'>
-
-          
-
           <Article text='Cyber security' />
           <Link to="/frontend">
             <Article text='Frontend' />

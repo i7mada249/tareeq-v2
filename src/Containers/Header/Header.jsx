@@ -13,8 +13,8 @@ const Header = () => {
           <h1 className='expl'>رحلتك تبدأ من هنا</h1>
           <p className="tagline">يساعدك الموقع على معرفة خارطة طريق مجالك التقني ومهارتك التي تريد تعلمها بصورة سهلة ومبسطة بالإضافة الى تزويدك بأفضل محتوى تعليمي من الإنترنت حتى تكون رحلتك أسهل</p>
           <div className='btns'>
-            <button>شارك معرفتك</button>
-            <button>لماذا طريق؟</button>
+            <button className='scnd-btn'>شارك معرفتك</button>
+            <button className='scnd-btn'>لماذا طريق؟</button>
             <button className='main-btn'>إدعم طريق</button>
           </div>
         </div>

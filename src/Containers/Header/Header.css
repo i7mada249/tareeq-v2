@@ -1,7 +1,7 @@
 .header {
     display: flex;
     flex-direction: row;
-    padding-top: 2rem;
+    padding-top: 3rem;
     margin-bottom: 0;
     align-items: center;
     justify-content: center;
@@ -22,6 +22,7 @@
     line-height: 75px;
     letter-spacing: -0.04em;
     margin: 0;
+    text-align: right;
 }
 
 .expl {
@@ -53,19 +54,27 @@
 
     display: flex;
     flex-direction: row;
+    color: gray;
 }
 
-.btns .main-btn {
+.main-btn {
     color: #242424;
     background: rgb(255, 255, 255);
     background: linear-gradient(214deg, rgba(255, 255, 255, 1) 0%, rgba(37, 119, 215, 1) 100%);
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    color: #242424;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(280deg, rgba(255, 255, 255, 1) 0%, rgba(37, 119, 215, 1) 100%);
 }
 
 .btns button {
     font-family: 'Tajawal', sans-serif;
     padding: 1rem 2rem;
     background-color: transparent;
-    color: gray;
+
     border: solid 1px gray;
     border-radius: 20px;
     margin-left: 1rem;
@@ -75,7 +84,7 @@
     transition: 0.3s;
 }
 
-.btns button:hover{
+.btns .scnd-btn:hover {
     color: white;
     border: solid 1px rgba(255, 255, 255, .1);
     background: rgba(255, 255, 255, .1);
@@ -107,4 +116,90 @@
 .fa-solid {
     font-size: 36px;
     color: #4d80e4;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin-top: 4rem;
+    }
+
+    .content h1 {
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    .btns button {
+        padding: 1.2rem 1.2rem;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header {
+        flex-direction: column-reverse;
+        padding-top: 4rem;
+    }
+
+    .content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content p {
+        text-align: center;
+    }
+
+    .btns button {
+        width: 140px;
+    }
+
+    .img {
+        width: 70%;
+    }
+
+    .content h1 {
+        font-size: 52px;
+        line-height: 72px;
+    }
+
+    .btns button {
+        padding: 1.2rem 1.2rem;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .header {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+        padding-top: 2rem;
+    }
+
+    .btns Button {
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+
+    .content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content h1 {
+        text-align: center;
+    }
+
+    .img {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .img img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
