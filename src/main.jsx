@@ -10,7 +10,7 @@ import './index.css'
 
 const router = createHashRouter([
   {
-    path: "/*",
+    path: "/",
     element: <App />,
   }
 ]);
