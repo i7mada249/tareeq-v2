@@ -20,7 +20,7 @@ const Main = () => {
 
         <div className='container'>
           <Article text='Cyber security' />
-          <Link to="/frontend">
+          <Link to="/main/frontend">
             <Article text='Frontend' />
           </Link>
           <Article text='Backend' />
