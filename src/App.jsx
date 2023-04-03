@@ -15,8 +15,8 @@ function App() {
         <Nav />
       </div>
       <Routes>
-        <Route path='/' exact Component={Landingpage}/>
-        <Route path='/frontend' Component={Frontend}/>
+        <Route path='/main' exact Component={Landingpage}/>
+        <Route path='/main/frontend' Component={Frontend}/>
       </Routes>
 
     </div>
