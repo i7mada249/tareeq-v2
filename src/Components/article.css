@@ -22,3 +22,12 @@
         width: 400px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .art-btn {
+        display: flex;
+        width: 290px;
+        font-size: 14px;
+        padding: 1rem 2rem;
+    }
+}

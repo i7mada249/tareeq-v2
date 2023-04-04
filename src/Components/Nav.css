@@ -75,3 +75,9 @@ nav a:hover {
         display: none;
     }
 }
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 1rem 2rem;
+    }
+}
