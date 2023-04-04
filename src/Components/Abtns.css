@@ -20,3 +20,24 @@
     transition: 0.3s;
     
 }
+
+.top-btns-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media screen and (max-width: 860px) {
+    .top-btn {
+        margin-left: 0;
+        margin-right: 0.5rem;
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .top-btns-container {
+        margin-top: 0.5rem;
+    }
+}

@@ -50,3 +50,27 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 860px) {
+    .main {
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+        padding: 0 1rem;
+    }
+
+    .about-roadmap {
+        margin-top: 2rem;
+    }
+
+    .roadmap {
+        margin-left: 0;
+    }  
+}
+
+@media screen and (max-width: 860px) {
+    .top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
