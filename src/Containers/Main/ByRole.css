@@ -55,3 +55,28 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .txt-cont h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .txt-cont p {
+        font-size: 12px;
+        line-height: 10px;
+        margin-top: 0.5rem;
+    }
+
+    .txt-cont {
+        margin-bottom: 1rem;
+    }
+
+    .main-cont {
+        margin: 0 1rem;
+    }
+}
