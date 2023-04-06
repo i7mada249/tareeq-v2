@@ -20,14 +20,25 @@ const Main = () => {
 
         <div className='container'>
           <Article text='Cyber security' />
-          <Link to="/main/frontend">
+          <Link to="/Learn/frontend">
             <Article text='Frontend' />
           </Link>
-          <Article text='Backend' />
-          <Article text='DevOps' />
-          <Article text='Android' />
-          <Article text='Mobile dev' />
-          <Article text='Computer scince' />
+          <Link to="/Learn/backend">
+            <Article text='Backend' />
+          </Link>
+          <Link to="/Learn/devops">
+            <Article text='DevOps' />
+          </Link>
+          <Link to="/Learn/android">
+            <Article text='Android' />
+          </Link>
+          <Link to="/Learn/mob">
+            <Article text='Mobile dev' />
+          </Link>
+          <Link to="/Learn/cs">
+            <Article text='Computer scince' />
+          </Link>
+
         </div>
 
       </div>

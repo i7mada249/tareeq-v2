@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { HashLink } from 'react-router-hash-link'
 import './Nav.css'
 import ByRoll from '../Containers/Main/ByRole'
 
@@ -11,18 +10,22 @@ const Nav = () => {
                 <header>
 
                     <a href="" className='logo'>
-                        
+
                         <Link to="/">
                             <h3 className='grd-txt'>Tareeq</h3>
                         </Link>
                     </a>
 
                     <nav>
-                        <HashLink to="/" className='hash-link'>
+                        <Link to="/Learn">
                             إبدأ الان
-                        </HashLink>
-                        <a href="">عن طريق</a>
-                        <a href="">للتواصل</a>
+                        </Link>
+                        <Link to="/About">
+                            عن طريق
+                        </Link>
+                        <Link to="/About">
+                            للتواصل
+                        </Link>
                     </nav>
                 </header>
             </div>
