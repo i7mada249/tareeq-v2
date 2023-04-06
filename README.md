@@ -1,5 +1,5 @@
 <div align="center">
-<img src="/tareeq-v2/src/assets/header.png" align="center" style="width: 100%" />
+<img src="/src/assets/header.png" align="center" style="width: 100%" />
 </div>  
   
 
