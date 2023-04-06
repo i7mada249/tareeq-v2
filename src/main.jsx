@@ -8,9 +8,9 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <ScrollToTop />
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>
 )

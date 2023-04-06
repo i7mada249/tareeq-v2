@@ -6,6 +6,15 @@
     color: gray;
 }
 
+.hash-link {
+    display: flex;
+}
+
+nav a{
+    margin: 0;
+    padding: 0;
+}
+
 .fixed-navbar {
     display: block;
     justify-content: center;
